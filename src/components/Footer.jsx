@@ -1,5 +1,4 @@
 import {
-	FaTwitter,
 	FaInstagram,
 	FaMapMarkerAlt,
 	FaPhoneAlt,
@@ -8,6 +7,7 @@ import {
 	FaUser,
 	FaPhone,
 } from "react-icons/fa";
+import { BsTwitterX } from "react-icons/bs";
 import { MdMiscellaneousServices } from "react-icons/md";
 import { IoMdCodeWorking } from "react-icons/io";
 
@@ -31,7 +31,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaTwitter />
+              <BsTwitterX />
             </a>
             <a
               href="https://www.instagram.com/haywhy10/"
@@ -79,18 +79,18 @@ const Footer = () => {
         <div className="footer-section contact">
           <h3>Have a Question?</h3>
           <p>
-            <FaMapMarkerAlt /> Oyo state, Nigeria
+            <FaMapMarkerAlt /> Lagos state, Nigeria
           </p>
           <p>
-            <a href="tel:+2347033149596">
+            <a href="tel:+2348155894593">
               <FaPhoneAlt />
-              +234703 314 9596
+              +234815 589 4593
             </a>
           </p>
           <p>
-            <a href="mailto:damyridwan@gmail.com">
+            <a href="mailto:owonikokoayomide@gmail.com">
               <FaEnvelope />
-              damyridwan@gmail.com
+              owonikokoayomide@gmail.com
             </a>
           </p>
         </div>

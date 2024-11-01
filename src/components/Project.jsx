@@ -1,18 +1,10 @@
 import React, { useEffect } from "react";
 import PropTypes from "prop-types";
 // translator
-import translatorShowcase from "../assets/translator/showcase.png";
-import translatorWorking from "../assets/translator/working.png";
+import inventoryShowcase from "../assets/inventory/showcase.png";
+import inventoryWorking from "../assets/inventory/working.png";
 //theme
-import theme from "../assets/multi/theme.png";
-import theme1 from "../assets/multi/theme2.png";
-import theme2 from "../assets/multi/theme3.png";
-// space
-import space from "../assets/space/Screenshot (431).png";
-import space1 from "../assets/space/Screenshot (432).png";
-import space2 from "../assets/space/Screenshot (433).png";
-import space3 from "../assets/space/Screenshot (434).png";
-import space0 from "../assets/space/Screenshot (436).png";
+
 // weather
 import weather from "../assets/weather/Screenshot (438).png";
 import weather1 from "../assets/weather/Screenshot (439).png";
@@ -225,45 +217,19 @@ const Project = () => {
 			details:
 				"The Weather App delivers current weather information, including temperature, humidity, and wind speed. It also displays general weather conditions such as clear skies, clouds, or rain. Users can search for weather updates for any location. The app integrates with a weather API to ensure the data is accurate and up-to-date, featuring a straightforward interface for easy navigation.",
 			language: "React Js (API integration)",
-			github: "https://github.com/kingdamie/Weather_App",
 			live: "https://weather-app-tawny-rho.vercel.app/",
 			images: [weather, weather1],
 		},
 		{
-			name: "Language Translator",
-			image: translatorShowcase,
+			name: "Inventory Website",
+			image: inventoryShowcase,
 			description:
-				"A web application that enables users to translate text between different languages. It features a user-friendly interface with text areas for input and output, language selection dropdowns, and buttons for translation. Additional functionality includes text-to-speech and copy-to-clipboard features..",
+				"A web application that enables users record there daily transactions and monitor the welfare of their business",
 			details:
-				"This dynamic web application facilitates language translation by providing two text areas: one for editable input and one for displaying translations. Users can select source and target languages from dropdown menus, with defaults set to English and Hindi. A Translate text button sends a request to the MyMemory API to handle translations. The application also includes an exchange icon to swap content and language selections, and speech and copy icons for copying text to the clipboard and using speech synthesis. JavaScript manages dynamic interactions, including text updates, language selections, and speech functionality.",
+				"This website allows users to add customers, suppliers, creation of waybills for transactions, invoice for all sales transactions, purchase details, etc",
 			language: "HTML, CSS, JavaScript (API integration)",
-			github: "https://github.com/kingdamie/Language-Translator",
-			live: "https://king-lang-translator.onrender.com",
-			images: [translatorWorking], // Add image URLs here
-		},
-		{
-			name: "Themed Calculator",
-			image: theme,
-			description:
-				"A themed calculator that allows users to perform basic arithmetic operations with the ability to switch between multiple themes for a personalized user experience.",
-			details:
-				"This themed calculator is a web-based application built with React and Node.js. It provides a user-friendly interface for basic arithmetic operations like addition, subtraction, multiplication, and division. The calculator features three different themes that users can switch between by clicking on the theme toggle buttons. Each theme changes the calculator's background color, button styles, and overall visual appearance, offering a dynamic and customizable user experience. The project showcases the use of modern front-end technologies, responsive design, and JavaScript for handling user interactions.",
-			language: "HTML, CSS, JavaSccript",
-			github: "https://github.com/kingdamie/themed-calculator",
-			live: "",
-			images: [theme, theme1, theme2],
-		},
-		{
-			name: "Space Tourism Website",
-			image: space0,
-			description:
-				"'Space Tourism Website' is a comprehensive web application that offers users an immersive experience exploring various destinations in our solar system. The website allows users to learn about potential space travel destinations, meet the crew members who would accompany them, and understand the cutting-edge technology used in space capsules...",
-			details:
-				"Destination: Explore the Moon, Mars, Europa, and Titan with detailed descriptions, travel distances, and estimated times. Highlights include the Apollo 11 landing site on the Moon and stunning views of Saturn’s rings from Titan. Meet Your Crew: Meet the team who will accompany you on your journey, including Commander Douglas Hurley and Flight Engineer Anousheh Ansari, the first self-funded woman in space. Technology: Learn about the space capsule's design for safe Earth reentry and its onboard amenities like a gym, cinema, and entertainment options.",
-			language: "HTML, CSS, JavaScript",
-			github: "https://github.com/kingdamie/space-tourism-website",
-			live: "https://kingdamie21space.onrender.com/",
-			images: [space, space1, space2, space3],
+			live: "isasdatc.com",
+			images: [inventoryWorking], // Add image URLs here
 		},
 	];
 
