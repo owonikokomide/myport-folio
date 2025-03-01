@@ -10,22 +10,11 @@ const About = () => {
       <div className="about-text">
         <h1>About me</h1>
         <p>
-          A passionate software developer with a knack for creating intuitive
-          and dynamic user interfaces. From a young age, I&rsquo;ve been
-          fascinated by the intersection of technology and creativity, leading
-          me to pursue a career in web development. I thrive on solving complex
-          problems and continuously learning new technologies to enhance my
-          skillset.
+        "A dedicated software developer who transitioned into the tech world with a passion for building intuitive and dynamic user interfaces.
+         My journey began in a different field, but my fascination with technology and problem-solving led me to pivot into web development.
+          I thrive on tackling complex challenges and continuously expanding my expertise by learning new technologies.
         </p>
-        {/* <p>
-					I am Olaniyan Damilare Ridwan, a dedicated software developer with a
-					strong foundation in web development and a growing expertise in
-					machine learning. My journey into technology began out of a deep
-					curiosity for how things work, particularly in the digital world. Over
-					the years, I have honed my skills in creating seamless and efficient
-					user experiences, driven by a commitment to continuous learning and
-					improvement.
-				</p> */}
+       
         <div className="details">
           <label htmlFor="name">Name:</label>
           <span>Owonikoko Ayomide Hakeem</span>
