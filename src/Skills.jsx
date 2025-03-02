@@ -42,12 +42,12 @@ const Skills = () => {
 	const skillscard = [
 		{ skill: "HTML", percentage: 90, lastWeek: 28, lastMonth: 60 },
 		{ skill: "CSS", percentage: 80, lastWeek: 25, lastMonth: 55 },
-		{ skill: "JavaScript", percentage: 75, lastWeek: 30, lastMonth: 50 },
+		{ skill: "JavaScript", percentage: 85, lastWeek: 30, lastMonth: 50 },
 	];
 const skills = [
 	{ name: "HTML", level: 90 },
 	{ name: "CSS/SCSS", level: 80 },
-	{ name: "JavaScript", level: 75 }, 
+	{ name: "JavaScript", level: 85 }, 
 	{ name: "Bootstrap", level: 50 },
 	{ name: "PHP", level: 65 }, 
 	{ name: "React Framework", level: 80 }, 
