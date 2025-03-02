@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import Education from "./Education";
+import Resumes from "./Resumes";
 import Experience from "./Experience";
 import Skills from "../Skills";
 
@@ -44,7 +44,7 @@ export const Resume = () => {
 					className={activeSection === "education" ? "active" : ""}
 					onClick={() => scrollToSection("education")}
 				>
-					Education
+					Resume
 				</a>
 				<a
 					href="#experience"
@@ -63,8 +63,8 @@ export const Resume = () => {
 			</div>
 			<div className="resume-content">
 				<section id="education">
-					<h2>Education</h2>
-					<Education/>
+					<h2>Resume</h2>
+					<Resumes/>
 				</section>
 				<section id="experience">
 					<h2>Experience</h2>

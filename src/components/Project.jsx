@@ -3,11 +3,9 @@ import PropTypes from "prop-types";
 // translator
 import inventoryShowcase from "../assets/inventory/showcase.png";
 import inventoryWorking from "../assets/inventory/working.png";
-//theme
 
-// weather
-import weather from "../assets/weather/Screenshot (438).png";
-import weather1 from "../assets/weather/Screenshot (439).png";
+// fivani
+import fivani from "../assets/fivani/fivani.png"
 // hesapro
 import hesapro from "../assets/hesapro/Screenshot (417).png";
 import hesapro1 from "../assets/hesapro/Screenshot (421).png";
@@ -210,15 +208,15 @@ const Project = () => {
 			images: [fintech1, fintech2, fintech3, fintech4],
 		},
 		{
-			name: "Weather App",
-			image: weather,
+			name: "Fivani",
+			image: fivani,
 			description:
-				"The Weather App is a user-friendly application that provides real-time weather updates using data from a weather API. Users can quickly check current conditions, including temperature, humidity, wind speed, and general weather conditions for any location.",
+				"Transform one-time projects into lasting partnerships. Join a community of freelancers who prioritize trust, growth, and meaningful connections.",
 			details:
-				"The Weather App delivers current weather information, including temperature, humidity, and wind speed. It also displays general weather conditions such as clear skies, clouds, or rain. Users can search for weather updates for any location. The app integrates with a weather API to ensure the data is accurate and up-to-date, featuring a straightforward interface for easy navigation.",
+				"Transform one-time projects into lasting partnerships. Join a community of freelancers who prioritize trust, growth, and meaningful connections.",
 			language: "React Js (API integration)",
-			live: "https://weather-app-tawny-rho.vercel.app/",
-			images: [weather, weather1],
+			live: "https://fivani.vercel.app/",
+			images: [fivani, fivani],
 		},
 		{
 			name: "Inventory Website",
