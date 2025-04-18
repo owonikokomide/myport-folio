@@ -19,6 +19,11 @@ import fintech2 from "../assets/worldremit/Screenshot (444).png";
 import fintech3 from "../assets/worldremit/Screenshot (445).png";
 import fintech4 from "../assets/worldremit/Screenshot (446).png";
 
+// travels and tour
+import travels from "../assets/travels/travels.png"
+import travels2 from "../assets/travels/travels2.png"
+import travels3 from "../assets/travels/travels3.png"
+
 
 
 
@@ -222,12 +227,24 @@ const Project = () => {
 			name: "Inventory Website",
 			image: inventoryShowcase,
 			description:
-				"A web application that enables users record there daily transactions and monitor the welfare of their business",
+				"A web application that enables users record their daily transactions and monitor the welfare of their business",
 			details:
 				"This website allows users to add customers, suppliers, creation of waybills for transactions, invoice for all sales transactions, purchase details, etc",
 			language: "HTML, CSS, JavaScript (API integration)",
 			live: "isasdatc.com",
 			images: [inventoryWorking], // Add image URLs here
+		},
+		{
+			name: "Travels and Tour",
+			image: travels2,
+			description:
+				"Find the coolest and most entertaining place to spend your holidays with ease.",
+			details:
+				"OIT travels and tour is designed to provide the best and perfect space to spend holidays with friends and families",
+			language: "React Js, SCSS",
+			github: "",
+			live: "https://travels-and-tours-khaki.vercel.app/",
+			images: [travels, travels2, travels3],
 		},
 	];
 
